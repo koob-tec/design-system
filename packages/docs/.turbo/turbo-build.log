@@ -1,0 +1,74 @@
+
+> @koob-jobs-ui/docs@1.0.0 build
+> build-storybook
+
+info @storybook/react v6.5.16
+info 
+info => Cleaning outputDir: /Users/gustavoevaristo/Desktop/documents/projects/koob/koob-ui/packages/docs/storybook-static
+info => Loading presets
+info => Loading custom manager config
+info => Compiling manager..
+info => Loading custom manager config
+vite v4.1.4 building for production...
+transforming...
+Use of eval in "../../node_modules/telejson/dist/esm/index.js" is strongly discouraged as it poses security risks and may cause issues with minification.
+Use of eval in "../../node_modules/telejson/dist/esm/index.js" is strongly discouraged as it poses security risks and may cause issues with minification.
+Use of eval in "../../node_modules/@storybook/components/dist/esm/index-681e4b07.js" is strongly discouraged as it poses security risks and may cause issues with minification.
+✓ 1472 modules transformed.
+rendering chunks...
+computing gzip size...
+storybook-static/iframe.html                                          13.90 kB
+storybook-static/assets/TokensGrid-37594f72.css                        0.44 kB │ gzip:   0.22 kB
+storybook-static/assets/es.map.constructor-6d855f65.js                 0.30 kB │ gzip:   0.25 kB │ map:     0.77 kB
+storybook-static/assets/preview-11d8f7b8.js                            0.38 kB │ gzip:   0.29 kB │ map:     0.55 kB
+storybook-static/assets/string-4fe0a8a5.js                             0.42 kB │ gzip:   0.32 kB │ map:     1.11 kB
+storybook-static/assets/es.string.from-code-point-e276d1fe.js          0.59 kB │ gzip:   0.44 kB │ map:     2.20 kB
+storybook-static/assets/es.regexp.flags-85d2055b.js                    0.67 kB │ gzip:   0.47 kB │ map:     2.75 kB
+storybook-static/assets/client-0343a477.js                             0.72 kB │ gzip:   0.46 kB │ map:     0.91 kB
+storybook-static/assets/preview-fa07db85.js                            0.85 kB │ gzip:   0.53 kB │ map:     7.44 kB
+
+(!) Some chunks are larger than 500 kBs after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+storybook-static/assets/make-decorator-00e549ae.js                     0.91 kB │ gzip:   0.54 kB │ map:     3.08 kB
+storybook-static/assets/TokensGrid-67b837e8.js                         0.93 kB │ gzip:   0.51 kB │ map:     1.66 kB
+storybook-static/assets/jsx-runtime-54f425fb.js                        1.15 kB │ gzip:   0.71 kB │ map:     2.19 kB
+storybook-static/assets/shadow.stories-471be72e.js                     1.39 kB │ gzip:   0.80 kB │ map:     1.63 kB
+storybook-static/assets/spacing.stories-536195a7.js                    1.40 kB │ gzip:   0.80 kB │ map:     1.64 kB
+storybook-static/assets/opacity.stories-7c0d7fd8.js                    1.40 kB │ gzip:   0.80 kB │ map:     1.64 kB
+storybook-static/assets/line-height.stories-0d75a673.js                1.41 kB │ gzip:   0.81 kB │ map:     1.66 kB
+storybook-static/assets/font-family.stories-f0987dcc.js                1.41 kB │ gzip:   0.80 kB │ map:     1.66 kB
+storybook-static/assets/font-weight.stories-a3943993.js                1.41 kB │ gzip:   0.81 kB │ map:     1.66 kB
+storybook-static/assets/border-width.stories-a9512ec5.js               1.42 kB │ gzip:   0.81 kB │ map:     1.67 kB
+storybook-static/assets/font-size.stories-6b54b876.js                  1.42 kB │ gzip:   0.82 kB │ map:     1.67 kB
+storybook-static/assets/border-radius.stories-9c870a5a.js              1.42 kB │ gzip:   0.81 kB │ map:     1.68 kB
+storybook-static/assets/spacing-inset.stories-0914a377.js              1.42 kB │ gzip:   0.81 kB │ map:     1.68 kB
+storybook-static/assets/home.stories-b1b41b4a.js                       1.59 kB │ gzip:   0.89 kB │ map:     1.95 kB
+storybook-static/assets/es.number.to-fixed-05603ceb.js                 1.75 kB │ gzip:   1.07 kB │ map:     8.23 kB
+storybook-static/assets/index-ad2f7666.js                              1.77 kB │ gzip:   0.79 kB │ map:     4.49 kB
+storybook-static/assets/preview-ae58b5cf.js                            1.87 kB │ gzip:   0.72 kB │ map:     4.31 kB
+storybook-static/assets/index-9736ef70.js                              2.82 kB │ gzip:   1.37 kB │ map:     6.37 kB
+storybook-static/assets/renderDocs-d66eaae7.js                         2.82 kB │ gzip:   1.35 kB │ map:     9.26 kB
+storybook-static/assets/preview-14047a72.js                            4.63 kB │ gzip:   1.79 kB │ map:    17.22 kB
+storybook-static/assets/config-3a9487ed.js                             5.98 kB │ gzip:   2.40 kB │ map:    20.04 kB
+storybook-static/assets/index-4d30fbcc.js                              7.45 kB │ gzip:   3.07 kB │ map:    15.81 kB
+storybook-static/assets/preview-e9a6c37a.js                            8.19 kB │ gzip:   1.74 kB │ map:    17.29 kB
+storybook-static/assets/colors.stories-3537ea46.js                     9.50 kB │ gzip:   4.05 kB │ map:   146.37 kB
+storybook-static/assets/preview-872b064e.js                            9.78 kB │ gzip:   3.45 kB │ map:    39.80 kB
+storybook-static/assets/preview-746a581c.js                           10.46 kB │ gzip:   4.07 kB │ map:    43.78 kB
+storybook-static/assets/GlobalScrollAreaStyles-8793ce4a-5ca2fc1c.js   10.63 kB │ gzip:   2.46 kB │ map:    19.53 kB
+storybook-static/assets/preview-c4dbda89.js                           27.03 kB │ gzip:   8.55 kB │ map:   105.41 kB
+storybook-static/assets/Color-f953d088-f39581be.js                    34.68 kB │ gzip:  13.03 kB │ map:   129.96 kB
+storybook-static/assets/WithTooltip-167e9982-0ec369ec.js              41.19 kB │ gzip:  13.85 kB │ map:   176.07 kB
+storybook-static/assets/Button.stories-79b1f191.js                    43.00 kB │ gzip:  16.40 kB │ map:   356.90 kB
+storybook-static/assets/index-cd1db29f.js                             61.00 kB │ gzip:  22.30 kB │ map:   274.09 kB
+storybook-static/assets/OverlayScrollbars-1355f44c-85ee5cc9.js        64.79 kB │ gzip:  27.48 kB │ map:   434.78 kB
+storybook-static/assets/syntaxhighlighter-b07b042a-edfde4f1.js       117.41 kB │ gzip:  48.84 kB │ map:   452.93 kB
+storybook-static/assets/index-5b5ac26f.js                            138.56 kB │ gzip:  45.67 kB │ map:   336.09 kB
+storybook-static/assets/config-62ba3cdc.js                           304.46 kB │ gzip:  92.12 kB │ map: 1,111.16 kB
+storybook-static/assets/Props-73369fb1.js                            423.30 kB │ gzip: 124.27 kB │ map:   903.56 kB
+storybook-static/assets/iframe-80132852.js                           511.30 kB │ gzip: 145.61 kB │ map: 1,442.21 kB
+storybook-static/assets/formatter-0d5cb0eb-fd261e7d.js               742.44 kB │ gzip: 239.86 kB │ map: 1,796.56 kB
+info => Manager built (16 s)
+info => Output directory: /Users/gustavoevaristo/Desktop/documents/projects/koob/koob-ui/packages/docs/storybook-static
