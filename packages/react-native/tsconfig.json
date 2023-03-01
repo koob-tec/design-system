@@ -1,0 +1,4 @@
+{
+  "extends": "@koob-jobs-ui/ts-config/react-native.json",
+  "include": ["src"]
+}

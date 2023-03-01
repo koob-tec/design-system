@@ -1,0 +1,43 @@
+{
+  "name": "@koob-jobs-ui/react-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts --external react-native",
+    "dev": "tsup src/index.ts --format esm,cjs --dts --external react-native --watch",
+    "lint": "eslint src/**/*.ts* --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-transform-flow-strip-types": "^7.10.4",
+    "@babel/plugin-transform-object-assign": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/runtime": "^7.11.2",
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "@types/react-native": "^0.71.0",
+    "@types/styled-components": "^5.1.26",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^30.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.32.1",
+    "typescript": "^4.9.5",
+    "react": "^18.2.0",
+    "react-native": "^0.71.0",
+    "styled-components": "^5.3.6",
+    "@koob-jobs-ui/eslint-config": "*",
+    "@koob-jobs-ui/tokens": "*"
+  }
+}
