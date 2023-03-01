@@ -3,6 +3,7 @@
   "license": "ISC",
   "private": true,
   "main": "index.js",
+  "version": "1.0.0",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "eslint": "^8.35.0",
