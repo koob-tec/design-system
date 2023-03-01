@@ -6,15 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "start-storybook -p 6006",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "lint": "eslint src/**/*.ts* --fix"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.21.0",
-    "@koob-jobs-ui/react": "*",
-    "@koob-jobs-ui/tokens": "*",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^6.5.16",
     "@storybook/addon-interactions": "^6.5.16",
@@ -27,6 +26,9 @@
     "vite": "^4.1.4"
   },
   "dependencies": {
+    "@koob-jobs-ui/react": "*",
+    "@koob-jobs-ui/tokens": "*",
+    "@koob-jobs-ui/eslint-config": "*",
     "@storybook/addons": "^6.5.16",
     "@storybook/theming": "^6.5.16",
     "polished": "^4.2.2",
